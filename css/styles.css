@@ -433,6 +433,9 @@ body {
   color: var(--accent-color);
   animation: scaler 1500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.clients__icon {
+  fill: currentColor;
+}
 
 @keyframes scaler {
   0% {
@@ -444,10 +447,6 @@ body {
   100% {
     transform: scale(1) rotateZ(360deg);
   }
-}
-
-.clients__icon {
-  fill: currentColor;
 }
 
 /*============================================== FOOTER */
@@ -629,7 +628,7 @@ body {
   transform: translateY(0);
 }
 
-@keyframes animate {
+/* @keyframes animate {
   0% {
     transform: scale(0);
     opacity: 0;
@@ -647,7 +646,7 @@ body {
     opacity: 1;
     visibility: visible;
   }
-}
+} */
 
 /*================================== MODAL WINDOW */
 .backdrop {
