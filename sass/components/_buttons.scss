@@ -1,0 +1,32 @@
+.btn {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  box-shadow: var(--btn-shadow-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color var(--animation);
+    &:hover,
+    &:focus {
+      background-color: var(--btn-hover-color);
+    }
+    .btn__icon {
+  fill: var(--primary-white-color);
+  margin-left: 12px;
+}
+}
+
+
+
